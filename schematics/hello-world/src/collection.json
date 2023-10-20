@@ -1,0 +1,13 @@
+{
+  "$schema": "../node_modules/@angular-devkit/schematics/collection-schema.json",
+  "schematics": {
+    "hello-world": {
+      "description": "Output Hello World to the console",
+      "factory": "./hello-world/index#helloWorld"
+    },
+    "goodbye-world": {
+      "description": "A blank schematic.",
+      "factory": "./goodbye-world/index#goodbyeWorld"
+    }
+  }
+}

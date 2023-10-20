@@ -1,0 +1,14 @@
+{
+    "$schema":"http://json-schema.org/schema",
+    "$id":"SchematicsDemoComponent",
+    "title":"Demo Component Schema",
+    "type": "object",
+    "properties":{
+        "name":{
+            "type":"string",
+            "description": "Component Name",
+            "x-prompt": "What is the component name"
+        }
+    },
+    "required": ["name"]
+}
